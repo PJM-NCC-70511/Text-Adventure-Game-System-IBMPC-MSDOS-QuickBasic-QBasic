@@ -1,0 +1,2305 @@
+ 456 
+         Welcome to the Hellworld Voyage, my pal. Your desteny is to find the lost treasures of the tribe of Haliss. The Halisstare a long lost ancient tribe that once lived in the area.the treasures are said to be hidden in a caverns of the Hellworld. Ounce you have found the hidden treasures, then your destiney is to escape from this world by obtaining enough gold pieces and find the way out. If you succeed, you will become a vetern of the Hellworld. 260 
+         You have made through the Hellworld voyage. You shall be victorious and glorious vetern of the Hellworld. Just remember what you have done and then you will become an master of this game. Try other text adventure games and see if you could solve them.The Hellworld Voyage
+Peter J. Meyer
+
+gold pieces
+(FE)
+ 0 
+ 83 
+ 22 
+ 23 
+ 24 
+ 0 
+ 1000 
+ 25 
+ 100 
+ 2 
+ 15 
+ 3 
+ 500 
+ 300 
+ 1 
+ 3 
+ 1 
+ 10 
+ 0 
+ 50 
+ 0 
+ 0 
+ 200 
+ 15 
+ 20 
+ 2 
+ 4 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 21 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 26 
+ 2 
+ 20 
+ 8 
+ 0 
+ 0 
+ 0 
+BLACK KEY
+It is a black key about 8 centimeters long.
+ 2 
+ 20 
+ 65 
+ 0 
+ 0 
+ 0 
+WHITE KEY
+It is a white marble key about 6 centimeters long.
+ 2 
+ 35 
+ 54 
+ 0 
+ 0 
+ 0 
+GREEN KEY
+It is a green painted key about 7 centimeters long.
+ 2 
+ 35 
+ 33 
+ 0 
+ 0 
+ 0 
+PURPLE KEY
+It is a purple key about 10 centimeters long.
+ 2 
+ 50 
+ 69 
+ 0 
+ 0 
+ 0 
+RED KEY
+It is a red copper key about 12 centimeters long.
+ 6 
+ 25 
+ 10 
+ 75 
+ 0 
+ 0 
+LEATHER armor
+It is leather armor which adds 25% more protection to shield streangh.
+ 6 
+ 35 
+ 27 
+ 40 
+ 0 
+ 0 
+METAL armor
+It is metal armor, which protects you at60% when you are attacked.
+ 6 
+ 200 
+ 46 
+ 10 
+ 0 
+ 0 
+HEAVEY armor
+It is heavey steal armor which protects you at 90% when you are attacked.
+ 3 
+ 12 
+ 10 
+ 5 
+ 0 
+ 0 
+CHAINS
+They are heavy iron chains about 1 meter long.Causes 5 hitpoints damage.
+ 3 
+ 20 
+ 10 
+ 8 
+ 0 
+ 0 
+HUNTING KNIFE
+It has a sharp point with a sharp and a jagged edge. Causes 8 hitpoints damage.I
+ 3 
+ 50 
+ 50 
+ 12 
+ 10 
+ 0 
+HATCHET
+It is a fighting hatchet with a sharp edge. It causes 12 hitpoints of damage.
+ 3 
+ 75 
+ 10 
+ 20 
+ 0 
+ 0 
+SWORD
+It is a sword about 50 centimeters long. It causes 20 hitpoints of damage.
+ 3 
+ 120 
+ 10 
+ 35 
+ 0 
+ 0 
+LONG SWORD
+It is a long sword about 1 meter long. It causes 35 hitpoints of damage.
+ 5 
+ 0 
+ 59 
+ 200 
+ 0 
+ 0 
+JUG OF WATER
+It is a jug of water which is cristle clear.
+ 5 
+ 0 
+ 81 
+ 100 
+ 0 
+ 0 
+MEAT
+It is beef, about 2 kilograms.
+ 10 
+ 30 
+ 3 
+ 0 
+ 0 
+ 0 
+SHOVEL
+It is a spade shovel with a handle about 1 meter long.
+ 16 
+ 4 
+ 27 
+ 100 
+ 0 
+ 0 
+POTION
+It is potion in a jar which is redish orange in color.
+ 17 
+ 4 
+ 27 
+ 1 
+ 0 
+ 0 
+POTION
+It is potion which is purple in color.
+ 12 
+ 10 
+ 19 
+ 0 
+ 0 
+ 0 
+NOTE
+REDISH ORANGE=POISON.PURPLE=HEALER. get a thousand gold peaces.
+ 12 
+ 10 
+ 40 
+ 0 
+ 0 
+ 0 
+NOTE
+Find the pot of gold coins,silver amulet,gold shaft, and the copper statue.Find
+ 12 
+ 12 
+ 55 
+ 0 
+ 0 
+ 0 
+NOTE
+Find the magic cup and USE it.
+ 1 
+ 500 
+ 50 
+ 0 
+ 0 
+ 0 
+POT OF GOLD COINS
+It is a pot of gold coins which is a lost treasure of the Haliss.
+ 1 
+ 500 
+ 46 
+ 0 
+ 0 
+ 0 
+SILVER amulet
+It is a silver amulet, which is a lost treasure of the tribe, haliss.
+ 1 
+ 500 
+ 63 
+ 0 
+ 0 
+ 0 
+gold shaft
+It is a gold shaft about 1 meter long.It is a lost treasure of the Haliss.
+ 1 
+ 500 
+ 61 
+ 0 
+ 0 
+ 0 
+COPPER statue
+It is a copper statue about 35 centimeters high.It's a treasure of the HalissIt
+ 9 
+ 2000 
+ 76 
+ 82 
+ 0 
+ 0 
+MAGIC cup
+It is a magic gold and silver cup. You may USE it.
+ 24 
+ 32 
+ 4 
+ 0 
+ 20 
+ 0 
+ 3 
+THIEF
+ 19 
+ 6 
+ 0 
+ 0 
+ 0 
+ 3 
+PHANTAM
+ 12 
+ 7 
+ 0 
+ 25 
+ 0 
+ 1 
+DEVIL
+ 33 
+ 7 
+ 0 
+ 25 
+ 0 
+ 1 
+DEVIL
+ 19 
+ 10 
+ 20 
+ 20 
+ 0 
+ 3 
+THIEF
+ 20 
+ 11 
+ 0 
+ 75 
+ 0 
+ 2 
+MAGIC HEALER
+ 18 
+ 1 
+ 3 
+ 8 
+ 0 
+ 1 
+GREEN DRAGON
+ 21 
+ 1 
+ 3 
+ 8 
+ 0 
+ 1 
+GREEN DRAGON
+ 32 
+ 1 
+ 5 
+ 10 
+ 0 
+ 1 
+SILVER DRAGON
+ 51 
+ 1 
+ 5 
+ 10 
+ 0 
+ 1 
+SILVER DRAGON
+ 56 
+ 1 
+ 5 
+ 10 
+ 0 
+ 1 
+SILVER DRAGON
+ 25 
+ 1 
+ 8 
+ 15 
+ 0 
+ 3 
+RED DRAGON
+ 44 
+ 1 
+ 8 
+ 15 
+ 0 
+ 3 
+RED DRAGON
+ 49 
+ 1 
+ 8 
+ 15 
+ 0 
+ 3 
+RED DRAGON
+ 74 
+ 1 
+ 10 
+ 25 
+ 0 
+ 3 
+BEAST
+ 59 
+ 1 
+ 10 
+ 25 
+ 0 
+ 3 
+BEAST
+ 71 
+ 1 
+ 12 
+ 30 
+ 0 
+ 3 
+GOBLIN
+ 73 
+ 1 
+ 15 
+ 40 
+ 0 
+ 3 
+LOIN
+ 35 
+ 1 
+ 15 
+ 40 
+ 0 
+ 3 
+LOIN
+ 20 
+ 1 
+ 4 
+ 12 
+ 0 
+ 2 
+SILVER DEMON
+ 20 
+ 1 
+ 4 
+ 12 
+ 0 
+ 2 
+SILVER DEMON
+ 20 
+ 1 
+ 8 
+ 15 
+ 0 
+ 2 
+ORANGE DEMON
+ 20 
+ 1 
+ 8 
+ 15 
+ 0 
+ 2 
+ORANGE DEMON
+ 20 
+ 1 
+ 12 
+ 20 
+ 0 
+ 2 
+BLACK DEMON
+ 84 
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with red brick walls. There is a sign with  "Welcome to Castle Vactress" printed on it.
+ 1 
+ 1 
+ 3 
+ 0 
+ 1 
+ 1 
+ 0 
+ 1 
+ 4 
+ 0 
+ 1 
+ 5 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room in a castle.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room in the casle. There is a arrom on a wall pointing down.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 7 
+ 0 
+ 0 
+ 0 
+ 3 
+ 13 
+ 0 
+ 0 
+
+ 0 
+You are in a room with an arrow pointing down on a brick wall.
+ 1 
+ 1 
+ 2 
+ 0 
+ 1 
+ 6 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with stoned bricked walls.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 5 
+ 0 
+ 1 
+ 9 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with an green spot on the floor.
+ 1 
+ 1 
+ 4 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 8 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with a huge light fixture hanging from the ceiling.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 7 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 11 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with an red spot on the floor.
+ 1 
+ 1 
+ 6 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 3 
+ 12 
+ 0 
+ 0 
+
+ 0 
+You are in a throne room of this castle.
+ 7 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 11 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with tables that have weapons on them. There is a sign saying  "WEAPONS MARKET."
+ 1 
+ 1 
+ 8 
+ 0 
+ 1 
+ 10 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 3 
+ 13 
+ 0 
+ 0 
+
+ 0 
+You are in a room. There is a arrow pointing west and the words "weapons market" above it.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 15 
+ 0 
+ 1 
+ 18 
+ 0 
+ 1 
+ 14 
+ 0 
+ 1 
+ 9 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in the hellworld. There is a sign saying "Draw a map and it might help you find your fate."
+ 3 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 3 
+ 0 
+ 12 
+ 0 
+ 0 
+
+ 0 
+As you clilbed in, a bolt of energy zapped you.
+ 1 
+ 1 
+ 12 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cavern with holes that has steam coming out of them.
+ 10 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 12 
+ 0 
+ 1 
+ 16 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at a chamber with tunnels leading out of it.
+ 10 
+ 1 
+ 15 
+ 0 
+ 1 
+ 17 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a steam filled chamber that has two tunnels leading out of it.
+ 9 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 16 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you walked into this tunnel, something grabbed your pocket and took some of your gold pieces.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 12 
+ 0 
+ 3 
+ 20 
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave tunnel that has a black steal door to the east end.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 21 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with stoned walls.
+ 1 
+ 1 
+ 27 
+ 0 
+ 1 
+ 18 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 21 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave-tunnel.
+ 1 
+ 1 
+ 20 
+ 0 
+ 1 
+ 19 
+ 0 
+ 1 
+ 30 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave tunnel with lava pits to the south.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 23 
+ 0 
+ 1 
+ 30 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at a curve of a cave-tunnel.
+ 1 
+ 1 
+ 25 
+ 0 
+ 1 
+ 22 
+ 0 
+ 1 
+ 24 
+ 0 
+ 1 
+ 28 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at an intersection of cave tunnels.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you came into this place, you stepped on something that blew you into hundreds on pieces.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 26 
+ 0 
+ 1 
+ 23 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave tunnel that is curving. There is a large opening to the east.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 25 
+ 0 
+ 0 
+ 0 
+ 1 
+ 20 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a large cavern. Above you can notice light getting in through small cracks.
+ 7 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 20 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+  NEL
+ 0 
+You are in the market of hell. There might be things that may be useful or deadly here.
+ 1 
+ 1 
+ 23 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 29 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+Y
+ 0 
+You are at a curve of a rock tunnel.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 28 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a large chamber with an tunnel leading out of it.
+ 1 
+ 1 
+ 22 
+ 0 
+ 1 
+ 21 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 31 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at an intersection of cave tunnels. The southern tunnel opens up into an large room.
+ 1 
+ 1 
+ 30 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 32 
+ 0 
+ 3 
+ 43 
+ 2 
+ 0 
+ 0 
+ 1 
+ 57 
+ 0 
+ 0 
+
+ 0 
+You are in a large room with an door to the south.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 31 
+ 0 
+ 0 
+ 0 
+ 0 
+ 3 
+ 47 
+ 3 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in an large chamber with a steal door with an green emblen on it.
+ 1 
+ 1 
+ 34 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 39 
+ 0 
+ 1 
+ 48 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a large chamber with a lava falls at the west side.
+ 1 
+ 1 
+ 35 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 38 
+ 0 
+ 1 
+ 33 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave tunnel with another one leading out to the east.
+ 1 
+ 1 
+ 36 
+ 0 
+ 1 
+ 24 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 34 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave tunnel. There is a sign with a skull on it with and an arrow under it, pointing to the west.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 37 
+ 0 
+ 1 
+ 35 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at a corner of a cave tunnel.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 36 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a large room with rock walls.There is a lava pit in the center.
+ 9 
+ 0 
+ 0 
+ 0 
+ 1 
+ 34 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you walked in, a blue ray shined on you and some of your gold pieces vanished.
+ 1 
+ 1 
+ 40 
+ 0 
+ 1 
+ 33 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 49 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at an small chamber with a lava pit in the center of it.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 41 
+ 0 
+ 1 
+ 39 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at a cave tunnel that carves.
+ 3 
+ 0 
+ 0 
+ 0 
+ 1 
+ 40 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you walked in, lava spurted out of a hole in a wall, burning a shield.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 50 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you walked it, three large boulders fell on you. You were crunched to a bloody pulp. You are now dead.
+ 1 
+ 1 
+ 31 
+ 0 
+ 1 
+ 44 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 51 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with exits.
+ 1 
+ 1 
+ 45 
+ 0 
+ 1 
+ 46 
+ 0 
+ 1 
+ 43 
+ 0 
+ 0 
+ 43 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are a large room with tall walls and a light comming out of the ceiling.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you came into this room, you slipped and felled down a narrow shaft and splattered against the bottom.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 44 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You're at a room with a blue outlined circle on the western wall.
+ 1 
+ 1 
+ 32 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 48 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You in a large cavern with a lava stream to the south.
+ 1 
+ 1 
+ 33 
+ 0 
+ 1 
+ 47 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cavern with a lava stream to the south, leading to a pit.
+ 1 
+ 1 
+ 39 
+ 0 
+ 0 
+ 0 
+ 0 
+ 3 
+ 50 
+ 4 
+ 0 
+ 50 
+ 4 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cavern with a wooden door at the east end that has a purple circle on it.
+ 1 
+ 1 
+ 42 
+ 0 
+ 1 
+ 49 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 67 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a large cavern.
+ 1 
+ 1 
+ 43 
+ 0 
+ 1 
+ 53 
+ 0 
+ 1 
+ 52 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with an arrow on the southern wall pointing west.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 51 
+ 0 
+ 1 
+ 56 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 74 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with tunnels leading out east and west.
+ 9 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 51 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you walked in, some of your gold pieces disappeared.
+ 1 
+ 1 
+ 56 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room with rock walls.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 56 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a room.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 52 
+ 0 
+ 1 
+ 55 
+ 0 
+ 1 
+ 54 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You're at a intersection of hallways.
+ 10 
+ 0 
+ 0 
+ 0 
+ 1 
+ 59 
+ 0 
+ 1 
+ 58 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 31 
+ 0 
+ 31 
+ 0 
+ 0 
+
+ 0 
+You are in a cavern that is very hot.
+ 10 
+ 1 
+ 61 
+ 0 
+ 1 
+ 57 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are at a chamber with steam comming out of holes in the wall.
+ 1 
+ 1 
+ 60 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 57 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a cave.
+ 3 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 59 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you came into this room, a hot stone flung out and hit you, It caused damage to you shield.
+ 10 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 62 
+ 0 
+ 1 
+ 58 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You in a large chamber.
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you came in, a spear shot out of an hole in a wall, hit your head, and your brains were splattered on the floor behind you.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 64 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a pit.
+ 1 
+ 1 
+ 63 
+ 0 
+ 1 
+ 65 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 26 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a pit.
+ 1 
+ 1 
+ 66 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 64 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are in a pit.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+As you came in this room, flames roared out of holes in the wall and you were burned to a crisp.
+ 1 
+ 1 
+ 68 
+ 0 
+ 1 
+ 70 
+ 0 
+ 1 
+ 71 
+ 0 
+ 1 
+ 73 
+ 0 
+ 0 
+ 0 
+ 1 
+ 50 
+ 0 
+ 0 
+
+ 0 
+You are inside of a maze of caverns.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 67 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are inside of a maze of caverns.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 70 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are inside of a cavern.
+ 1 
+ 1 
+ 69 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 67 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are inside of a room in a maze of caverns.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 67 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+You are inside of a maze of caverns.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+  When you came, a door sealed the chamber. It was suddenly turned into a vacuum. You exploded instantly.
+ 1 
+ 1 
+ 67 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 72 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+  You are in a maze of caverns, there are tunnels leading out north and south.
+ 1 
+ 1 
+ 75 
+ 0 
+ 1 
+ 79 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 81 
+ 0 
+ 1 
+ 52 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+ You are in a room with steel walls. The are multiple exits leading out.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 76 
+ 0 
+ 1 
+ 74 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+ You are in a room with steal walls.
+ 1 
+ 0 
+ 0 
+ 0 
+ 1 
+ 75 
+ 0 
+ 1 
+ 0 
+ 0 
+ 1 
+ 77 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+   You are in a maze of rooms that are made out of steal.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+  When you got in, laser beams shot out of tiny holes in the steal walls, You were turned into a piece of bloody swiss cheese.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+  When you got in, the steal floor rose quickly and slammed to the ceiling. You then became a bloody pulp dripping from the ceiling.
+ 1 
+ 1 
+ 78 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 74 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+            
+ 0 
+ You are in a room with steal walls.
+ 2 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+           
+ 0 
+When you got in, a tube shot into your head and injected acid into your brain. Your brain then exploded.
+ 1 
+ 1 
+ 74 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 80 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+           
+ 0 
+ You are in a room with steal walls.
+ 1 
+ 1 
+ 83 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 1 
+TUNNEL
+ 0 
+ You are in a room with glass walls. Through them, you can see a large city and back to civilization.
+ 1 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 1 
+ 82 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+           
+ 0 
+ You in another room of the glass chamber. Are you sure you got everything to complete your mission.
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+ 0 
+
+ 0 
+
