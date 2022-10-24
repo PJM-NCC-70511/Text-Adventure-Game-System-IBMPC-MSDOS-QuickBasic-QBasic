@@ -34,13 +34,13 @@ Initialize:
   DIM Rsk(RM.DIM), Ru(RM.DIM), Rul(RM.DIM), Rd(RM.DIM), Rdl(RM.DIM), Ro(RM.DIM)
   DIM Rol(RM.DIM), Rov(RM.DIM), REN$(RM.DIM), Rd$(RM.DIM)
    S0 = 0
-   S1 = 0
-   S2 = 0
-   S3 = 0
-   S4 = 0
+   WinPlace = 0
+   WinItem01 = 0
+   WinItem02 = 0
+   WinItem03 = 0
    S5 = 0
    S6 = 0
-   S7 = 0
+   WinItem04 = 0
    S8 = 0
    S9 = 0
    S10 = 0
@@ -130,11 +130,11 @@ Main.line:
          LOOP
        END IF
        N = 0
-       IF R = S1 OR S1 = 0 THEN N = N + 1
-       IF OL(S2) = 0 OR S2 = 0 THEN N = N + 1
-       IF OL(S3) = 0 OR S3 = 0 THEN N = N + 1
-       IF OL(S4) = 0 OR S4 = 0 THEN N = N + 1
-       IF OL(S7) = 0 OR S7 = 0 THEN N = N + 1
+       IF R = WinPlace OR WinPlace = 0 THEN N = N + 1
+       IF OL(WinItem01) = 0 OR WinItem01 = 0 THEN N = N + 1
+       IF OL(WinItem02) = 0 OR WinItem02 = 0 THEN N = N + 1
+       IF OL(WinItem03) = 0 OR WinItem03 = 0 THEN N = N + 1
+       IF OL(WinItem04) = 0 OR WinItem04 = 0 THEN N = N + 1
        IF OL(S30) = 0 OR S30 = 0 THEN N = N + 1
        IF OL(S31) = 0 OR S31 = 0 THEN N = N + 1
        IF OL(S32) = 0 OR S32 = 0 THEN N = N + 1
@@ -1905,13 +1905,13 @@ Load.file:
   LINE INPUT #1, CU$
   LINE INPUT #1, a$
   INPUT #1, S0
-  INPUT #1, S1
-  INPUT #1, S2
-  INPUT #1, S3
-  INPUT #1, S4
+  INPUT #1, WinPlace
+  INPUT #1, WinItem01
+  INPUT #1, WinItem02
+  INPUT #1, WinItem03
   INPUT #1, S5
   INPUT #1, S6
-  INPUT #1, S7
+  INPUT #1, WinItem04
   INPUT #1, S8
   INPUT #1, S9
   INPUT #1, S10

@@ -44,9 +44,9 @@ DO
    PRINT "        A) Enter main information"
    PRINT "        B) Enter specifications"
    PRINT "        C) Enter passwords/spells"
-   PRINT "        D) Enter object data"
-   PRINT "        E) Enter hostility data"
-   PRINT "        F) Enter place data"
+   PRINT "        D) Enter Item Data"
+   PRINT "        E) Enter Computer Controlled Characer Data"
+   PRINT "        F) Enter Place Data"
    PRINT "        G) Create/edit text file"
    PRINT "        H) Create/edit screen file"
    PRINT "        I) Create/edit graphic file"
@@ -74,7 +74,7 @@ DO
     CASE IS = 3
       GOSUB Edit.Passwords
     CASE IS = 4
-      GOSUB Edit.Object.data
+      GOSUB Edit.Item.Data
     CASE IS = 5
       GOSUB Edit.hostility.data
     CASE IS = 6
@@ -156,19 +156,19 @@ Edit.main.info:
   EDITSTRING Cp$
   CLS
   PRINT "Place number must be at to win"
-  A = S1
+  A = WinPlace
   EDITVALUE A
-  S1 = A
+  WinPlace = A
   CLS
   PRINT "Objects must have to win"
   PRINT "1st"
-  EDITVALUE S2
+  EDITVALUE WinItem01
   PRINT "2nd"
-  EDITVALUE S3
+  EDITVALUE WinItem02
   PRINT "3rd"
-  EDITVALUE S4
+  EDITVALUE WinItem03
   PRINT "4th"
-  EDITVALUE S7
+  EDITVALUE WinItem04
   PRINT "5th"
   EDITVALUE S30
   PRINT "6th"
@@ -332,11 +332,11 @@ Edit.Passwords:
   LOOP UNTIL A$ = ""
 RETURN
 
-Edit.Object.data:
+Edit.Item.Data:
  O = OBJ + 1
  DO
  CLS
- PRINT "Object number "; O; " type."
+ PRINT "Item Number "; O; " type."
  PRINT " 1 Treasures     ", " 2 key(s)     ",
  IF DD = 0 AND S21 < 3 THEN PRINT " 3 Weapon        ",
  PRINT " 4 Ammunition    ",
@@ -374,7 +374,7 @@ Edit.Object.data:
  OT = OT(O)
  MODE = 1
  EDITVALUE OT
- IF OT = 72 THEN INPUT "What object number ? ", O
+ IF OT = 72 THEN INPUT "What Item Number ? ", O
  IF OT = 74 THEN GOSUB SEARCH.OBJECTS
  IF OT = 75 OR pk = 1 THEN O = O - 1
  IF pk = 2 THEN O = O + 1
@@ -394,7 +394,7 @@ Edit.Object.data:
     CASE IS = 6, 46, 47, 48, 49, 50, 51, 52, 53
       P$ = "Number of armor points this object protects at."
     CASE IS = 7
-      P$ = "Detonater object number must have to use."
+      P$ = "Detonater Item Number must have to use."
     CASE IS = 20
       P$ = "How many extra lives will be given."
     CASE IS = 9
@@ -420,7 +420,7 @@ Edit.Object.data:
     CASE IS = 18
       P$ = "How many more turn added if found"
     CASE IS = 19
-      P$ = "What is the object number of object in  side?"
+      P$ = "What is the Item Number of object in  side?"
     CASE IS = 35
       P$ = "How many hit points will be added."
     CASE IS = 36
@@ -446,13 +446,13 @@ Edit.Object.data:
   P$ = "<SKIP>"
   SELECT CASE OT
     CASE IS = 3
-      P$ = "Enter 0-Used by itself, object number-ammunition, 500-must be thrown, 510-usedonly once."
+      P$ = "Enter 0-Used by itself, Item Number-ammunition, 500-must be thrown, 510-usedonly once."
     CASE IS = 17 AND OV(O) = 2
       P$ = "How many shield points lost."
     CASE IS = 17 AND OV(O) = 3
       P$ = "How many shield points lost per turn."
     CASE IS = 19
-      P$ = "If it requires a key to open it, enter the object number, or else enter 0."
+      P$ = "If it requires a key to open it, enter the Item Number, or else enter 0."
     CASE IS = 22, 23, 24, 26, 37
       IF OT = 37 THEN GOSUB Edit.password.number
       A = OV(O)
@@ -460,7 +460,7 @@ Edit.Object.data:
         A = A - (INT(A / 100) * 100)
       END IF
       IF A = 1 THEN
-        P$ = "What object number is inside."
+        P$ = "What Item Number is inside."
       END IF
       IF A > 1 AND A < 9 THEN P$ = "What place# will it lead to."
       IF OT = 24 AND A = 9 THEN
@@ -477,7 +477,7 @@ Edit.Object.data:
     CASE IS = 34, 35, 36, 38, 39, 40
       P$ = "What Password/spell to activate it."
     CASE IS = 33 AND OV(O) = 0
-    P$ = "Object number it will become when assembled. 1000 + Place number become other exit."
+      P$ = "Item Number it will become when assembled. 1000+Place number become other exit."
     CASE IS > 43
       P$ = "Enter 2nd object variable"
     CASE ELSE
@@ -492,12 +492,12 @@ Edit.Object.data:
   END IF
   CLS
   IF OT < 72 THEN
-    PRINT "Enter the place number of where this object is. Enter 0 for it to be in the"
-    PRINT "inventory at the start of game. 500 for it to be inside of another object."
-    PRINT "2000 + hostility number for it to be a reward for killing it."
+    PRINT "Enter the place number for this item. Enter 0 to be in the inventory at the"
+    PRINT "start of game. 500 for it to be inside of another object. 2000 + Computer"
+    PRINT "Character Number for it to be a reward for killing it."
     EDITVALUE OL(O)
     PRINT
-    PRINT " What is the object credit value.Enter 0 if no value."
+    PRINT " What is the object credit value. Enter 0 if no value."
     EDITVALUE Op(O)
     PRINT
     PRINT " What is the name of this object"
@@ -586,10 +586,10 @@ SEARCH.OBJECTS:
     PRINT "Survival object "
   END IF
   IF OT = 16 THEN
-    PRINT "Adds "; OV(O); " shield points."
+    PRINT "Adds "; OV(O); " Shield Points."
   END IF
   IF OT = 17 THEN
-    PRINT "Poison Food/water."
+    PRINT "Poison Food / Water."
   END IF
   IF OT = 18 THEN
     PRINT "Adds "; OV(O); " turns."
@@ -689,7 +689,7 @@ SEARCH.OBJECTS:
  LOOP UNTIL P = 13
 RETURN
 
-Edit.range:
+Edit.Range:
   A = 0
   B = 0
   IF OV2(O) > 999 THEN
@@ -750,7 +750,7 @@ RETURN
 
 GET.DD.OBJECTS:
   CLS
-  PRINT "Object number "; O; " type"
+  PRINT "Item Number "; O; " type"
   PRINT " Dungeons and Dragons game object list."
   PRINT "54 Magicians Robe   ", "55 Magicians Hat ",
   PRINT "56 Magicians Boots  ", "57 Magicians Weapon",
@@ -864,7 +864,7 @@ Edit.hostility.data:
          PRINT "How many hit points does it have"
        END IF
        IF HT(H) = 12 THEN
-         PRINT "Object number of weapon to defeat it."
+         PRINT "Item Number of weapon to defeat it."
        END IF
        IF HT(H) = 13 OR HT(H) = 14 THEN
          PRINT "Password/Spell number to defeat it."
@@ -1037,7 +1037,7 @@ Edit.Place.data:
       PRINT " What place number it leads to"
       EDITVALUE RNL(R)
       IF RN(R) = 2 OR RN(R) = 3 THEN
-        PRINT " What key object number"
+        PRINT " What key Item Number"
         EDITVALUE RNK(R)
       END IF
       IF RN(R) = 5 THEN
@@ -1053,7 +1053,7 @@ Edit.Place.data:
       PRINT " What place number it leads to"
       EDITVALUE RWL(R)
       IF RW(R) = 2 OR RW(R) = 3 THEN
-        PRINT " What key object number"
+        PRINT " What key Item Number"
         EDITVALUE RWK(R)
       END IF
       IF RW(R) = 5 THEN
@@ -1069,7 +1069,7 @@ Edit.Place.data:
       PRINT "What place number it leads to"
       EDITVALUE REL(R)
       IF RE(R) = 2 OR RE(R) = 3 THEN
-        PRINT " What key object number"
+        PRINT " What key Item Number"
         EDITVALUE REK(R)
       END IF
       IF RE(R) = 5 THEN
@@ -1085,7 +1085,7 @@ Edit.Place.data:
       PRINT "What place number it leads to"
       EDITVALUE RSL(R)
       IF RS(R) = 2 OR RS(R) = 3 THEN
-        PRINT " What key object number"
+        PRINT " What is Key Item Number"
         EDITVALUE RSK(R)
       END IF
       IF RS(R) = 5 THEN
@@ -1398,13 +1398,13 @@ Load.file:
   LINE INPUT #1, Cu$
   LINE INPUT #1, A$
   INPUT #1, S0
-  INPUT #1, S1
-  INPUT #1, S2
-  INPUT #1, S3
-  INPUT #1, S4
+  INPUT #1, WinPlace
+  INPUT #1, WinItem01
+  INPUT #1, WinItem02
+  INPUT #1, WinItem03
   INPUT #1, S5
   INPUT #1, S6
-  INPUT #1, S7
+  INPUT #1, WinItem04
   INPUT #1, S8
   INPUT #1, S9
   INPUT #1, S10
@@ -1540,13 +1540,13 @@ Save.file:
    PRINT #1, Cu$
    PRINT #1, "(FE)"
    PRINT #1, S0
-   PRINT #1, S1
-   PRINT #1, S2
-   PRINT #1, S3
-   PRINT #1, S4
+   PRINT #1, WinPlace
+   PRINT #1, WinItem01
+   PRINT #1, WinItem02
+   PRINT #1, WinItem03
    PRINT #1, S5
    PRINT #1, S6
-   PRINT #1, S7
+   PRINT #1, WinItem04
    PRINT #1, S8
    PRINT #1, S9
    PRINT #1, S10
